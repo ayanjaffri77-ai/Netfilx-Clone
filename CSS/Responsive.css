@@ -1,0 +1,218 @@
+/* media query */
+
+@media screen and (max-width: 1150px) {
+
+
+    .header .banner-item .banner-heading {
+        font-size: 2.5rem;
+        line-height: 55px;
+        padding-right: 0px;
+    }
+
+    .header .banner-item .text {
+        font-size: 1rem;
+        margin: 13px 0;
+    }
+
+    .header .banner-item .change {
+        font-size: 0.8rem;
+        margin-top: 28px;
+        margin-bottom: 18px;
+    }
+
+    .main .row-1 {
+        width: 88%;
+    }
+
+    .main .row-1 .box-row .box {
+        width: 49%;
+        margin-bottom: 15px;
+        height: 230px;
+    }
+
+    .input-head {
+        font-size: 1.1em;
+        width: 88%;
+        text-align: left;
+        margin: 40px 0 20px 0px;
+    }
+
+    .input-change {
+        justify-content: flex-start;
+        width: 88%;
+        margin-bottom: 70px;
+    }
+
+    .input .width {
+        padding: 15px 250px 15px 10px;
+        width: 700px;
+    }
+
+    footer{
+        padding: 0 150px;
+    }
+
+}
+
+ @media screen and (max-width: 970px) {
+
+    .input .width {
+        padding: 15px 200px 15px 10px;
+        width: 500px;
+    }
+
+    .input button {
+        width: 150px;
+        height: 49px;
+    }
+
+    .input button span {
+        font-size: 1.3em;
+        margin-right: 9px;
+    }
+
+    .input button img {
+        width: 10px;
+    }
+
+    footer{
+        padding: 0 100px;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+
+    .header .banner-item{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .header .banner-item .banner-heading {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .header .banner-item .text {
+        font-size: 0.9rem;
+        margin: 15px 0;
+    }
+
+    .header .banner-item .change {
+        font-size: 0.7rem;
+        margin-top: 18px;
+    }
+
+    .main .row-1 .box-row .box-change .text .color{
+        font-size: 0.8em;
+        padding-right: 15px;
+    }
+
+    .main .row-1 .box-row .box-change .text .responsive{
+        font-size: 1.2em;
+    }
+
+    footer{
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .input {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .input input {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .input-head{
+        font-size: 0.8em;
+    }
+
+    footer .footer-rows{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+} 
+
+@media screen and (max-width: 660px){
+
+    .header nav .logo {
+        width: 100px;
+    }
+
+    .main .row-1 .box-row .box {
+        width: 100%;
+        height: 200px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    
+    .main .row-1 .box-row .box-change .text p{
+        font-size: 0.8em;
+        padding-right: 15px;
+    }
+
+    .main .row-1 .box-row .box-change .text .responsive{
+        font-size: 1.45em;
+    }
+
+    .input input {
+        padding: 10px 70px 10px 10px;
+    }
+
+    .input .width {
+        padding: 10px 50px 10px 10px;
+        width: 90%;
+    }
+
+    .input button {
+        width: 100px;
+        height: 39px;
+    }
+
+    .input button span {
+        color: #fff;
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .input button img {
+        width: 8px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+
+    .header nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 2rem;
+    }
+
+    .header nav .logo {
+        width: 90px;
+        margin-bottom: 10px;
+    }
+
+    .header nav a {
+        padding: 5px 12px;
+    }
+
+    .header .banner-item{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+}
